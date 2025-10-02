@@ -77,7 +77,7 @@ const drawer = ref(false);
     <logo
       title="Eventi"
       :width="smAndUp ? 190: 150"
-      :container-class="isRequiresNoAuth ? 'mx-auto clickable' : 'mx-3 clickable'"
+      :container-class="clickable"
       @click="router.push(calcHome)"
     />
 

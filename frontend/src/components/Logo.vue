@@ -16,7 +16,7 @@ const {imgSrc, title, imgClass, containerClass, maxWidth, maxHeight, width} =
 </script>
 
 <template>
-  <div :class="`d-flex align-center ${containerClass}`">
+  <div :class="`${containerClass}`">
     <v-img
       v-if="imgSrc"
       :class="` ${imgClass}`"
